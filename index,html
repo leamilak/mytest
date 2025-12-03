@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my website</title>
+        <body>
+            <form>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname"><br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname"><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="sex">Sex</label><br>
+                <input type="radio" name="sex" id="male">
+                <label for="radio">Male</label><br>
+                <input type="radio" name="sex" id="female">
+                <label for="female">Female</label><br>
+                <label for="learn">What do you ant to learn the programming skills ?</label><br>
+                <input type="checkbox" name="" id="python">
+                <label for="phthon">Pyhton</label><nr><br>
+                <input type="checkbox" name="" id="java">
+                <label for="java">java</label><br>
+                <input type="checkbox" name="" id="c++">
+                <label for="c++">C++</label><br>
+                <label for="date">Date:</label>
+                <input type="date" name="" id=""><br>
+                <label for="file">File Choosen</label><br>
+                <input type="file" name="" id=""><br>
+                <label for="age">Age</label><br>
+                <input type="number" name="" id=""><br>
+                <label for="phone">Phone number</label>
+                <input type="tel" name="" id="">
+                <label for="time">Time of submit</label>
+                <input type="time"><br>
+                <video src="https://youtu.be/kDE31AmaIAM.mp4" width="300" height="400" autoplay controls>
+
+                </video>
+                <input type="submit" value="submit"><br>
+                <input type="reset">
+            </form>
+        </body>
+    </head>
+</html>
